@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+@import '~@angular/material/theming';
+
+$custom-typegraphy:
+mat-typography-config($font-family:'Exo');
+
+body
+{
+  background-color:#f4f4f4;
+  margin:0;
+pm-root * {
+font-family: 'Exo',sens-serif;
+}
+}
+
+.left-spacer{margin-left:2%}
+
+.mat-dialog-container{
+  background-color: rgb(44, 95, 123);
+}

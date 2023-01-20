@@ -1,0 +1,62 @@
+<div style="height:100vh">
+ <mat-toolbar color="primary">
+  <mat-toolbar-row>
+<button
+mat-icon-button
+ (click)="sidenav.toggle()"
+fxShow="true"
+fxShow.gt-sm
+>
+<mat-icon>menu</mat-icon>
+</button>
+    <a class="logo" [routerLink]="['/']"></a>
+<span class="pm-title">Lap Mart</span>
+
+<div fxShow="true" fxHide.lt-md="true">
+<a mat-button routerLink="/products"
+       routerLinkActive="active-link">Products</a>
+</div>
+<span class="header-spacer"></span>
+    <a *ngIf="!user" mat-button routerLink="/auth"
+        routerLinkActive="active-link">
+<mat-icon>
+person_outliner
+</mat-icon>
+        Login</a>
+
+        <div>
+      <a mat-button *ngIf="user"
+      [matMenuTriggerFor]="menu">
+        <mat-icon>account_circle</mat-icon>
+
+      <span fxShow="true"
+      fxHide.lt-md="true"> {{user.fullname}}
+     </span>
+      </a>
+      <mat-menu #menu = "matMenu">
+        <button (click)="logoutEvent.emit()"
+        mat-menu-item>Logout</button>
+      </mat-menu>
+    </div>
+<pm-cart-items-count></pm-cart-items-count>
+  </mat-toolbar-row>
+</mat-toolbar>
+
+<mat-sidenav-container fxFlexFill>
+<mat-sidenav #sidenav>
+<mat-nav-list>
+<a
+ mat-list-item
+  routerLink = "/products"
+  (click)="sidenav.toggle()"
+>Products
+</a>
+</mat-nav-list>
+</mat-sidenav>
+<mat-sidenav-content>
+<router-outlet>
+
+</router-outlet>
+</mat-sidenav-content>
+</mat-sidenav-container>
+</div>

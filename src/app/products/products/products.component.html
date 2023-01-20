@@ -1,0 +1,51 @@
+<mat-card>
+<mat-card-content>
+  <mat-form-field class="full-width">
+
+    <input matInput (keyup) ="applyFilter($event.target.value)" placeholder="Search">
+
+  </mat-form-field>
+  <table matSort mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+    <!--- Note that these columns can be defined in any order.
+          The actual rendered columns are set as a property on the row definition" -->
+
+    <!-- Position Column -->
+    <ng-container matColumnDef="imgUrl">
+      <th mat-header-cell *matHeaderCellDef>Image</th>
+      <td mat-cell *matCellDef ="let product">
+      <img [src] ="product.imgUrl"
+      class="product-listing-image" />
+      </td>
+    </ng-container>
+
+    <!-- Name Column -->
+    <ng-container matColumnDef="name">
+      <th mat-header-cell mat-sort-header *matHeaderCellDef> Name </th>
+      <td mat-cell *matCellDef ="let product"> {{product.name}} </td>
+    </ng-container>
+
+    <!-- Weight Column -->
+    <ng-container matColumnDef="price">
+      <th mat-header-cell mat-sort-header *matHeaderCellDef> Price </th>
+      <td mat-cell *matCellDef ="let product">
+      {{product.price | currency }} </td>
+    </ng-container>
+
+    <!-- Symbol Column -->
+    <ng-container matColumnDef="action">
+      <th mat-header-cell mat-sort-header *matHeaderCellDef> Action </th>
+      <td mat-cell *matCellDef ="let product">
+<pm-add-to-cart [product]="product"></pm-add-to-cart>
+      </td>
+    </ng-container>
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>
+
+  <mat-paginator
+  [pageSizeOptions]="[3, 6, 9]" showFirstLastButtons>
+  </mat-paginator>
+  <mat-spinner *ngIf="loading"></mat-spinner>
+</mat-card-content>
+</mat-card>
+

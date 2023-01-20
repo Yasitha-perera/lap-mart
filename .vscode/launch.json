@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+      {
+          "name": "Client Debug",
+          "request": "launch",
+          "type": "chrome",
+          "url": "http://localhost:4200",
+          "webRoot": "${workspaceFolder}",
+          "preLaunchTask": "npm: serve"
+      },
+
+      {
+          "type": "node",
+          "request": "launch",
+          "name": "Server Debug",
+          "port" : 9229,
+          "cwd": "${workspaceFolder}",
+          "runtimeExecutable": "npm",
+          "runtimeArgs": ["run-script", "server:debug"]
+      }
+  ]
+}

@@ -1,0 +1,25 @@
+<body style="background-color: rgb(44, 95, 123);">
+  <div mat-dialog-container>
+  <h1 mat-dialog-title>{{cartItem.quantity}} item/s added to cart</h1>
+  <div mat-dialog-content>
+      <div class="pm-dialog-row">
+          <img mat-cartd-image src="{{cartItem.imgUrl}}" alt="{{cartItem.name}}" class="product-listing-image">
+          <span class="mat-caption">
+              {{cartItem.name}} {{cartItem.itemTotal|currency}}
+          </span>
+
+      </div>
+      <div class="pm-dialog-row">
+        <button mat-raised-button [tabIndex]="0" color="primary"
+        (click)="continueShopping()" class="shopping-btn">
+        Continue Shopping
+        </button>
+        <div class="pm-dialog-row">
+          <button mat-raised-button color="accent" (click)="goToCart()">
+              Go to Cart
+          </button>
+        </div>
+      </div>
+  </div>
+  </div>
+  </body>

@@ -1,0 +1,44 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+      {
+          "type": "npm",
+          "script": "server:watch",
+          "problemMatcher":[]
+      },
+      {
+          "type": "npm",
+          "script": "serve",
+          "isBackground": true,
+          "presentation": {
+              "echo": true,
+              "reveal": "always",
+              "focus": true,
+              "panel": "dedicated",
+              "showReuseMessage": true,
+              "clear": false
+          },
+          "group": {
+              "kind": "build",
+              "isDefault": true
+          },
+          "problemMatcher":{
+              "owner": "typescript",
+              "source": "ts",
+              "applyTo": "closedDocuments",
+              "fileLocation": ["relative", "${cwd}"],
+              "pattern":"$tsc",
+              "background": {
+                  "activeOnStart": true,
+                  "beginsPattern":{
+                      "regexp": "(.*?)",
+
+                  },
+                  "endsPattern":{
+                      "regexp": "Compiled |Failed to compile"
+                  }
+              }
+          }
+      }
+  ]
+}
