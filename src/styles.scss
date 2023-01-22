@@ -1,22 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
-
-@import '~@angular/material/prebuilt-themes/indigo-pink.css';
-@import '~@angular/material/theming';
-
-$custom-typegraphy:
-mat-typography-config($font-family:'Exo');
-
-body
-{
-  background-color:#f4f4f4;
-  margin:0;
-pm-root * {
-font-family: 'Exo',sens-serif;
+@import "~@angular/material/theming";
+@import url('https://fonts.googleapis.com/css2?family=Assistant&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Permanent+Marker&display=swap');
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.icon{width: 100;height: 100;}
+.spacer{
+    flex: 1 1 auto;
 }
+.left-spacer{
+    margin-left: 2%;
 }
 
-.left-spacer{margin-left:2%}
+mat-dialog-container {
+    background-color: rgb(41, 49, 53) !important;
+ }
 
-.mat-dialog-container{
-  background-color: rgb(44, 95, 123);
+ .mat-progress-spinner circle, .mat-spinner circle {
+    stroke: #2A79FF!important;
 }
+
+main{
+    text-align: center;
+    position: relative;
+}
+.pm-title{
+  font-family: 'Permanent Marker', cursive;
+}
+
+
+
+

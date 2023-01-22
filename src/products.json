@@ -1,32 +1,57 @@
 [
   {
-    "imgUrl": "https://guesseu.scene7.com/is/image/GuessEU/M63H24W7JF0-L302-ALTGHOST?wid=1500&fmt=jpeg&qlt=80&op_sharpen=0&op_usm=1.0,1.0,5,0&iccEmbed=0",
-    "name": "CHECK PRINT SHIRT",
-    "price": 110,
+    "imgUrl": "./assets/1932-20221210085449-GE67 (2).png",
+    "name": "MSI RAIDER GE67 HX 12UGS i9 12TH GEN RTX 3070Ti ",
+    "price": 910,
     "id": 1
   },
   {
-    "imgUrl": "https://guesseu.scene7.com/is/image/GuessEU/FLGLO4FAL12-BEIBR?wid=700&amp;fmt=jpeg&amp;qlt=80&amp;op_sharpen=0&amp;op_usm=1.0,1.0,5,0&amp;iccEmbed=0",
-    "name": "GLORIA HIGH LOGO SNEAKER",
-    "price": 91,
-    "id": 2
+    "imgUrl": "./assets/MSI-Pulse-GL76-11UEK-Gaming-Laptop-i7-11th-Gen-16GB-RAM-1TB-SSD-RTX3060-Titanium-Grey-removebg-preview.png",
+    "name": "MSI PULSE GL76 11UEK I7 + RTX3060 17",
+    "price": 300,
+    "id":4
   },
   {
-    "imgUrl": "https://guesseu.scene7.com/is/image/GuessEU/HWVG6216060-TAN?wid=700&amp;fmt=jpeg&amp;qlt=80&amp;op_sharpen=0&amp;op_usm=1.0,1.0,5,0&amp;iccEmbed=0",
-    "name": "CATE RIGID BAG",
-    "price": 94.5,
+    "imgUrl": "./assets/MSI-GF65-Thin-10UE-02-removebg-preview.png",
+    "name": "MSI GF65 THIN 10UE i7 + RTX 3060",
+    "price": 445,
     "id": 3
   },
   {
-    "imgUrl": "http://guesseu.scene7.com/is/image/GuessEU/WC0001FMSWC-G5?wid=520&fmt=jpeg&qlt=80&op_sharpen=0&op_usm=1.0,1.0,5,0&iccEmbed=0",
-    "name": "GUESS CONNECT WATCH",
-    "price": 438.9,
-    "id": 4
+    "imgUrl": "./assets/f405ba3935189b7c8710d87389627d92d3c15eed_msi_a12uc098au_03-removebg-preview.png",
+    "name": "MSI MODERN 15 B12M I5 12TH GEN",
+    "price": 300,
+    "id":4
   },
   {
-    "imgUrl": "https://guesseu.scene7.com/is/image/GuessEU/AW6308VIS03-SAP?wid=700&amp;fmt=jpeg&amp;qlt=80&amp;op_sharpen=0&amp;op_usm=1.0,1.0,5,0&amp;iccEmbed=0",
-    "name": "'70s RETRO GLAM KEFIAH",
-    "price": 20,
-    "id": 5
+    "imgUrl": "./assets/MSI-Alpha-15-B5EEK-R5-removebg-preview.png",
+    "name": "MSI ALPHA 15 RYZEN 5 RX6600M 8GB B5EEK",
+    "price": 445,
+    "id":5
+  },
+  {
+    "imgUrl": "./assets/6501181_sd-removebg-preview.png",
+    "name": "MSI CROSSHAIR 15 I7 12TH GEN RTX 3060 RAINBOW SIX EXTRACTION EDITION B12UEZ",
+    "price": 300,
+    "id":4
+  },
+  {
+    "imgUrl": "./assets/msi-prestige-15-a11scx-11th-gen-core-i7-laptop-1000px-v1-0001-removebg-preview.png",
+    "name": "MSI PRESTIGE 15 A11SCX I7 11TH GEN 1650",
+    "price": 300,
+    "id":4
+  },{
+    "imgUrl": "./assets/image_750x_625bcd3532af5-removebg-preview.png",
+    "name": "MSI KATANA GF76 THIN 11UC I5 11TH GEN WITH RTX 3050 17",
+    "price": 300,
+    "id":4
+  },
+  {
+    "imgUrl": "./assets/f405ba3935189b7c8710d87389627d92d3c15eed_msi_a12uc098au_03-removebg-preview.png",
+    "name": "MSI SWORD 15 A12UC I7 12TH GEN RTX 3050",
+    "price": 881,
+    "id": 2
   }
+
 ]
+

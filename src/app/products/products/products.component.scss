@@ -1,6 +1,6 @@
 .example-card {
   max-width: 400px;
-margin:15px ;
+margin: 15px;
 }
 
 .full-width{
@@ -14,11 +14,12 @@ background-size: cover;
 .mat-table {
 box-shadow: none;
 width: 100%;
+background-color: rgb(0, 0, 0);
 }
 
 .product-listing-image {
 height: 20em;
-width: 15em;
+width: 25em;
 }
 
 @media all and (max-width:699px){
@@ -29,4 +30,8 @@ width: 7em;
 
 .mat-spinner {
 margin:10% auto;
+}
+.border{
+  background-color: #050101;
+height: 110%;
 }

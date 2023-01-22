@@ -9,14 +9,14 @@
   </mat-select>
   </mat-form-field>
 <span class="atc-spacer"></span>
-<button mat-raised-button color="primary"(click)="addItemToCart()" *ngIf="!(isItemAlreadyInCart| async)">
+<button mat-raised-button color="primary"(click)="addItemToCart()" *ngIf="!(isItemAlreadyInCart| async)"style="left:20%;background-color:rgb(39, 37, 37)">
 <mat-icon>
 add_shopping_cart
 </mat-icon>
 <span class="addcart-btn-text">Add to Cart</span>
 </button>
 
-<button mat-raised-button color="primary" class="btn-md"[routerLink]="['../cart']" *ngIf="isItemAlreadyInCart| async">
+<button mat-raised-button color="primary" class="btn-md"[routerLink]="['../cart']" *ngIf="isItemAlreadyInCart| async" style="background-color:rgb(39, 37, 37)">
   <mat-icon>
   shopping_cart
   </mat-icon>
@@ -24,5 +24,4 @@ add_shopping_cart
   </button>
   </mat-card-content>
   </mat-card>
-
 

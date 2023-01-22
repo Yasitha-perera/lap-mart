@@ -1,58 +1,23 @@
-<mat-card class="register-card">
-  <mat-card-header>
-    <mat-card-title>...Register...</mat-card-title>
-  </mat-card-header>
-<mat-card-content>
-<form>
-<table cellspacing="0" class="full-width"
-[formGroup]="userForm">
-  <tr>
-  <td>
-    <mat-form-field class="full-width">
-      <input
-      name="fullname"
-      formControlName="fullname"
-      matInput
-      placeholder="Full Name"
-      required
-    />
-    <mat-icon matSuffix class="icon">account_circle</mat-icon>
-  </mat-form-field>
-  </td>
-</tr>
-<tr>
-  <td>
-    <mat-form-field class="full-width">
-      <input
-      name="email"
-      formControlName="email"
-      matInput
-      placeholder="Email"
-      required
-      type="email"
-    />
-    <mat-icon matSuffix class="icon">email</mat-icon>
-
-    </mat-form-field>
-<mat-error *ngIf="email.invalid && email.errors.email">
-  Invalid Email
-</mat-error>
-  </td>
-</tr>
-<tr>
-  <td>
-    <mat-form-field class="full-width">
-      <input
-      name="password"
-      formControlName="password"
-      matInput
-      placeholder="Password"
-      required
-      matInput [type]="hide ? 'password' : 'text'"/>
-            <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
-              <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
-            </button>
-
+<body class="register-body" background="../../../assets/wallpaperflare.com_wallpaper (1).jpg">
+  <mat-card class="register-card">
+    <mat-card-header>
+      <mat-card-title>...Register...</mat-card-title>
+    </mat-card-header>
+  <mat-card-content>
+  <form>
+  <table cellspacing="0" class="full-width"
+  [formGroup]="userForm">
+    <tr>
+    <td>
+      <mat-form-field class="full-width">
+        <input
+        name="fullname"
+        formControlName="fullname"
+        matInput
+        placeholder="Full Name"
+        required
+      />
+      <mat-icon matSuffix class="icon">account_circle</mat-icon>
     </mat-form-field>
     </td>
   </tr>
@@ -60,35 +25,73 @@
     <td>
       <mat-form-field class="full-width">
         <input
-        name="password"
-        formControlName="repeatPassword"
+        name="email"
+        formControlName="email"
         matInput
-        placeholder="Repeat Password"
+        placeholder="Email"
+        required
+        type="email"
+      />
+      <mat-icon matSuffix class="icon">email</mat-icon>
+
+      </mat-form-field>
+  <mat-error *ngIf="email.invalid && email.errors.email">
+    Invalid Email
+  </mat-error>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <mat-form-field class="full-width">
+        <input
+        name="password"
+        formControlName="password"
+        matInput
+        placeholder="Password"
         required
         matInput [type]="hide ? 'password' : 'text'"/>
-            <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
-              <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
-            </button>
+              <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+                <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+              </button>
+
       </mat-form-field>
-<mat-error *ngIf="repeatPassword.invalid &&
-repeatPassword.errors.passwordMatch">
-Password Should Match
-</mat-error>
       </td>
     </tr>
-</table>
-</form>
-</mat-card-content>
-<mat-card-actions>
-<button class="full-width" mat-raised-button color="primary"(click)="register()">
-Register
-</button>
-<div style="margin-top: 2em">
-<span class="left-space">
-Already have an account
-<a [routerLink]="['/auth']">Login</a> Here
-</span>
-</div>
-</mat-card-actions>
-</mat-card>
+    <tr>
+      <td>
+        <mat-form-field class="full-width">
+          <input
+          name="password"
+          formControlName="repeatPassword"
+          matInput
+          placeholder="Repeat Password"
+          required
+          matInput [type]="hide ? 'password' : 'text'"/>
+              <button mat-icon-button matSuffix (click)="hide = !hide" [attr.aria-label]="'Hide password'" [attr.aria-pressed]="hide">
+                <mat-icon>{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+              </button>
+        </mat-form-field>
+  <mat-error *ngIf="repeatPassword.invalid &&
+  repeatPassword.errors.passwordMatch">
+  Password Should Match
+  </mat-error>
+        </td>
+      </tr>
+  </table>
+  </form>
+  </mat-card-content>
+  <mat-card-actions>
+  <button class="register-button" mat-raised-button color="primary"(click)="register()">
+  Register
+  </button>
+  <div style="margin-top: 2em">
+  <span class="left-space">
+  Already have an account
+  <a [routerLink]="['/auth']" class="link">Login</a> Here
+  </span>
+  </div>
+  </mat-card-actions>
+  </mat-card>
+</body>
+
 

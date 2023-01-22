@@ -1,8 +1,9 @@
-<mat-card>
+<mat-card class="border">
 <mat-card-content>
   <mat-form-field class="full-width">
-
-    <input matInput (keyup) ="applyFilter($event.target.value)" placeholder="Search">
+    <input
+    matInput
+    (keyup) ="applyFilter($event.target.value)" placeholder="Search">
 
   </mat-form-field>
   <table matSort mat-table [dataSource]="dataSource" class="mat-elevation-z8">
@@ -28,7 +29,7 @@
     <ng-container matColumnDef="price">
       <th mat-header-cell mat-sort-header *matHeaderCellDef> Price </th>
       <td mat-cell *matCellDef ="let product">
-      {{product.price | currency }} </td>
+      {{product.price | currency:'Rs.' }} </td>
     </ng-container>
 
     <!-- Symbol Column -->
@@ -43,9 +44,9 @@
   </table>
 
   <mat-paginator
-  [pageSizeOptions]="[3, 6, 9]" showFirstLastButtons>
+  [pageSizeOptions] ="[3, 6, 9]" showFirstLastButtons>
   </mat-paginator>
-  <mat-spinner *ngIf="loading"></mat-spinner>
+  <mat-spinner *ngIf ="loading"></mat-spinner>
 </mat-card-content>
 </mat-card>
 

@@ -18,9 +18,9 @@
   </div>
   <mat-divider></mat-divider>
   <div *ngIf="cartItemsCount|async" class="sc-container">
-    <mat-card class="sc-items" style="background-color: rgb(44, 95, 123);">
+    <mat-card class="sc-items" style="background-color: rgb(26, 18, 18);">
       <mat-card-content>
-        <table mat-table [dataSource]="cartItems|async" class="mat-elevation-z8" style="background-color: rgb(44, 95, 123);">
+        <table mat-table [dataSource]="cartItems|async" class="mat-elevation-z8" style="background-color:rgb(27, 18, 18);">
 
           <ng-container matColumnDef="imgUrl">
             <th mat-header-cell *matHeaderCellDef> Image
@@ -52,7 +52,7 @@
             <td mat-cell *matCellDef="let cartItem">
               <mat-select name="quantity" [value]="cartItem.quantity"
                 (selectionChange)="updateCartItem($event, cartItem)">
-                <mat-option *ngFor="let quantity of availableQuantities" [value]="quantity" style="background-color: rrgb(44, 95, 123)">
+                <mat-option *ngFor="let quantity of availableQuantities" [value]="quantity" style="background-color: rgb(17, 11, 11)">
                   {{quantity}}
                 </mat-option>
               </mat-select>
@@ -81,7 +81,7 @@
     </mat-card>
 
     <!--Checkout and Order Summary -->
-    <mat-card class="sc-summary" style="background-color: rgb(44, 95, 123);">
+    <mat-card class="sc-summary" style="background-color: rgb(49, 35, 35);">
       <mat-card-content>
 <pm-paypal-checkout></pm-paypal-checkout>
         <pm-cart-summary></pm-cart-summary>

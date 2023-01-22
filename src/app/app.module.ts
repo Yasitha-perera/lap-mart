@@ -7,7 +7,7 @@ import { PmMaterialModule } from './shared/material-module';
 import { HttpClientModule } from '@angular/common/http';
 import { SharedModule } from './shared/shared.module';
 import { BlocksModule } from './blocks/blocks.module';
-import { CoreModule } from '@angular/flex-layout';
+import { CoreModule } from '@core/core.module';
 @NgModule({
   imports: [
     BrowserModule,

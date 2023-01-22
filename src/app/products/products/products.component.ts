@@ -15,8 +15,9 @@ dataSource= new MatTableDataSource<Product>();
 loading=true;
 subscriptions=[];
 displayedColumns=['imgUrl', 'name', 'price', 'action'];
+
 @ViewChild(MatSort) sort: MatSort;
-@ViewChild(MatPaginator ) paginator: MatPaginator;
+@ViewChild(MatPaginator) paginator: MatPaginator;
 
 constructor(private productDataService: ProductsDataService) {}
 

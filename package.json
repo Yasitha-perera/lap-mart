@@ -8,6 +8,7 @@
     "start:server": "node server/index.js",
     "server": "nodemon server",
     "client": "ng serve --port 4230 -o",
+    "client:prod": "ng serve --host 0.0.0.0 --port 4230 -o",
     "build": "ng build",
     "build:watch": "ng build --watch",
     "build:prod": "npm run build -- --prod",

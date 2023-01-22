@@ -1,5 +1,5 @@
 body{
-  background-color: rgb(4, 54, 70) ;
+  background-color: #000000 ;
 }
 table {
     width: 100%;
@@ -11,8 +11,9 @@ table {
     text-align: center;
     padding: 100px;
     border-radius: 0%;
-    height: 50%;
+    height: 75%;
     width: 90%;
+background-image: url("../../../assets/dark-electronic-keyboard-laptop-0a8f8b5efac86ce4a1f48ebd7d5ca191.jpg");
   }
 
   $iconWidth: 50px;
@@ -25,7 +26,7 @@ table {
 
   .mat-raised-button {
     font-size: 20px;
-    background-color: rgb(61, 141, 166);
+    background-color: rgb(14, 14, 14);
   }
 
   .sc-image {

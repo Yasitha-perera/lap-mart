@@ -29,7 +29,7 @@ export class AuthService {
     return this.user$.value !== null;
   }
 
-  get loggedInUser (){
+  get loggedInUser() {
     return this.user$.value;
   }
 
@@ -86,18 +86,18 @@ export class AuthService {
     if (!token) {
       return EMPTY;
     }
-
+    console.log("findMe 1");
     return this.httpClient.get<any>(`${this.apiUrl}findme`).pipe(
       switchMap(({ user, token }) => {
         return this.setUserAfterUserFoundFromServer(user, token);
       }),
       catchError((e) => {
         this.logService.log(
-          `Your login details could not be verified. Please try again`,
+          `Your login details could not be verified. Please try again 2`,
           e
         );
         return throwError(
-          `Your login details could not be verified. Please try again`
+          `Your login details could not be verified. Please try again 3`
         );
       })
     );
@@ -107,7 +107,6 @@ export class AuthService {
     this.setUser(user);
     this.tokenStorage.setToken(token);
     this.logService.log(`User found in server`, user);
-
     return this.user$;
   }
 
