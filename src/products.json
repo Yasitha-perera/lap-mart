@@ -40,7 +40,8 @@
     "name": "MSI PRESTIGE 15 A11SCX I7 11TH GEN 1650",
     "price": 300,
     "id":4
-  },{
+  },
+  {
     "imgUrl": "./assets/image_750x_625bcd3532af5-removebg-preview.png",
     "name": "MSI KATANA GF76 THIN 11UC I5 11TH GEN WITH RTX 3050 17",
     "price": 300,
@@ -51,7 +52,42 @@
     "name": "MSI SWORD 15 A12UC I7 12TH GEN RTX 3050",
     "price": 881,
     "id": 2
+  },
+  {
+    "imgUrl": "./assets/2142-20220906141116-summit_e16_flip_evo_arc_a370m_core_i7_12700h-removebg-preview.png",
+    "name": "MSI SUMMIT E16FLIP A11UCT I7 - RTX 3050",
+    "price": 300,
+    "id":4
+  },
+  {
+    "imgUrl": "./assets/Asus-TUF-Gaming-Dash-F15-FX516PE-i7-11th-Generation-RTX-3050Ti-1-600x600-removebg-preview.png",
+    "name": "ASUS TUF DASH F15 FX516PE I7 11TH GEN + 3050TI ",
+    "price": 300,
+    "id":4
+  },
+  {
+    "imgUrl": "./assets/Predator-Helios-300-2020-DB-986x800-1592977964-removebg-preview.png",
+    "name": "PREDATOR HELIOS 300 I7 RTX 3060",
+    "price": 300,
+    "id":4
+  },
+  {
+    "imgUrl": "./assets/33-2-removebg-preview.png",
+    "name": "ASUS ZENBOOK PRO DUO UX582 I7 3070",
+    "price": 300,
+    "id":4
+  },
+  {
+    "imgUrl": "./assets/download-removebg-preview.png",
+    "name": "LENOVO LEGION 5 15ACH6H RYZEN 7 RTX 3060",
+    "price": 300,
+    "id":4
+  },
+  {
+    "imgUrl": "./assets/Hp-Envy-15-EP1890TX-01-removebg-preview.png",
+    "name": "HP ENVY 15 EP1567TX - INTEL CORE I5 RTX 3050TI",
+    "price": 300,
+    "id":4
   }
-
 ]
 
