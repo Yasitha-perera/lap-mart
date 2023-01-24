@@ -2,90 +2,105 @@
   {
     "imgUrl": "./assets/1932-20221210085449-GE67 (2).png",
     "name": "MSI RAIDER GE67 HX 12UGS i9 12TH GEN RTX 3070Ti ",
+    "specs":"Intel® Core™ i9-12900HX (30M Cache, up to 5.00 GHz), 32GB DDR5 4800MHZ (16GB X 2) 1TB M.2 GEN4 NVME SSD 15.6 OLED QHD 240Hz 100% DCI-P3 NVIDIA® GeForce RTX 3070Ti 8GB GDDR6 Per-Key RGB Backlight Keyboard 2.4 kg, 99.9WHrs",
     "price": 910,
     "id": 1
   },
   {
     "imgUrl": "./assets/MSI-Pulse-GL76-11UEK-Gaming-Laptop-i7-11th-Gen-16GB-RAM-1TB-SSD-RTX3060-Titanium-Grey-removebg-preview.png",
     "name": "MSI PULSE GL76 11UEK I7 + RTX3060 17",
+    "specs":"Intel® Core™ i7-11800H (24M Cache, up to 4.60Ghz)16GB DDR4 3200MHZ 1TB M.2 NVME SSD 17.3 1080P 144Hz 10 SRGB NVIDIA® GeForce RTX 3060 6GB GDDR6 RGB Backlit Keyboard 2.6 kg ,53.5WHrs",
     "price": 300,
     "id":4
   },
   {
     "imgUrl": "./assets/MSI-GF65-Thin-10UE-02-removebg-preview.png",
     "name": "MSI GF65 THIN 10UE i7 + RTX 3060",
+    "specs":"Intel® Core™ i7-10750H (12M Cache, up to 5.00Hz)8GB DDR4 2933MHZ 512GB NVME M.2 SSD 15.6 FHD (1920x1080 144Hz, IPS-Level NVIDIA® GeForce® RTX 3060 6GB GDDR6 MAX-Q RED Backlit keyboard 1.9 kg , 51WHrs",
     "price": 445,
     "id": 3
   },
   {
     "imgUrl": "./assets/f405ba3935189b7c8710d87389627d92d3c15eed_msi_a12uc098au_03-removebg-preview.png",
     "name": "MSI MODERN 15 B12M I5 12TH GEN",
+    "specs":"Intel® Core™ i5-1235U (12M Cache, up to 4.44GHz 8GB DDR4 3200MHZ 512GB NVME M.2 SSD15.6” 1080P Display IPS LEVEL Intel Iris Xe Graphics Backlight Keyboard (Single-Color, White)1.7kg, 39.3WHrs",
     "price": 300,
     "id":4
   },
   {
     "imgUrl": "./assets/MSI-Alpha-15-B5EEK-R5-removebg-preview.png",
     "name": "MSI ALPHA 15 RYZEN 5 RX6600M 8GB B5EEK",
+    "specs":"Intel® Core™ i7-11800H (24M Cache, up to 4.60Ghz)16GB DDR4 3200MHZ 1TB M.2 NVME SSD 17.3 1080P 144Hz 100% SRGB NVIDIA® GeForce RTX 3060 6GB GDDR6 RGB Backlit Keyboard 2.6 kg , 53.5WHrs",
     "price": 445,
     "id":5
   },
   {
     "imgUrl": "./assets/6501181_sd-removebg-preview.png",
     "name": "MSI CROSSHAIR 15 I7 12TH GEN RTX 3060 RAINBOW SIX EXTRACTION EDITION B12UEZ",
+    "specs":"ntel® Core™ i7-12700H (24M Cache, up to 4.70Ghz 14 Cores 20 Threads) 32GB DDR4 3200MHZ 1TB GEN4 NVME M.2 SSD 15.6 QHD (2560*1440) 165Hz, DCI-P3 100% Typical NVIDIA® GeForce RTX 3060 6GB GDDR6 Spectrum Backlight Keyboard 2.25kg , 53.5WHrs",
     "price": 300,
     "id":4
   },
   {
     "imgUrl": "./assets/msi-prestige-15-a11scx-11th-gen-core-i7-laptop-1000px-v1-0001-removebg-preview.png",
     "name": "MSI PRESTIGE 15 A11SCX I7 11TH GEN 1650",
+    "specs":"Intel® Core™ i7-1185G7 (12M Cache, up to 4.80GHz 16GB DDR4 3200MHZ 1TB PCIE 4.0 M.2 NVME SSD 15.6 FHD(1920x1080), IPS-Level, 60Hz NVIDIA® GeForce GTX 1650 Max-Q 4GB GDDR6 Backlight Keyboard (Single-Color, White)1.7 kg , 82WHrs",
     "price": 300,
     "id":4
   },
   {
     "imgUrl": "./assets/image_750x_625bcd3532af5-removebg-preview.png",
     "name": "MSI KATANA GF76 THIN 11UC I5 11TH GEN WITH RTX 3050 17",
+    "specs":"Intel® Core™ i5-11400H Processor (12M Cache, up to 4.50 GHz) 8GB DDR4 3200MHZ 512GB M.2 NVME SSD 17.5 NVIDIA® GeForce RTX 3050 4GB GDDR6 Red Backlit keyboard 2.6 kg , 53.5WHrs",
     "price": 300,
     "id":4
   },
   {
     "imgUrl": "./assets/f405ba3935189b7c8710d87389627d92d3c15eed_msi_a12uc098au_03-removebg-preview.png",
     "name": "MSI SWORD 15 A12UC I7 12TH GEN RTX 3050",
+    "specs":"Intel®️ Core™️ i7-12700H (24M Cache, up to 470Ghz, 14 Cores 20 Threads) 8GB DDR4 3200MHZ 512GB GEN4 NVME M.2 SSD 15.6 1080P 144Hz 45% NTSC NVIDIA®️ GeForce RTX 3050 4GB GDDR6 Backlight Keyboard (Single Color, Blue)2.25 kg , 53.5WHrs",
     "price": 881,
     "id": 2
   },
   {
     "imgUrl": "./assets/2142-20220906141116-summit_e16_flip_evo_arc_a370m_core_i7_12700h-removebg-preview.png",
     "name": "MSI SUMMIT E16FLIP A11UCT I7 - RTX 3050",
+    "specs":"Intel® Core™ i7-1195G7 12M Cache, up to 5.00 GHz 16GB DDR4 3200MHZ 1TB NVMe PCIe Gen3x4 SSD 15.6 QHD+ 2K, 120Hz DCI-P3 100% typical, Pen Touch panel NVIDIA® GeForce RTX 3050 4GB GDDR6 White Backlight Keyboard, 2 xThunderbolt 41.9 kg, 82WHrs, Productivity up to 11 hours battery life",
     "price": 300,
     "id":4
   },
   {
     "imgUrl": "./assets/Asus-TUF-Gaming-Dash-F15-FX516PE-i7-11th-Generation-RTX-3050Ti-1-600x600-removebg-preview.png",
     "name": "ASUS TUF DASH F15 FX516PE I7 11TH GEN + 3050TI ",
+    "specs":"Intel®️ Core™️ i7-11370H (12M Cache, up to 480Hz 16GB DDR4 3200MHZ 512GB M.2 NVME SSD 15.6 1080P 144Hz Anti-Glare IPS-level 62.5% SRGB NVIDIA®️ GeForce RTX3050Ti 4GB GDDR6 Asus Backlit Chiclet Keyboard2.0 kg , 76WHrs",
     "price": 300,
     "id":4
   },
   {
     "imgUrl": "./assets/Predator-Helios-300-2020-DB-986x800-1592977964-removebg-preview.png",
     "name": "PREDATOR HELIOS 300 I7 RTX 3060",
+    "specs":"ntel® Core™ i7-10750H (12M Cache, up to 5.00Hz)DRAM DDR4 16GB 2933Mhz 1TB M.2 NVME SSD 15.6 FHD 1920x1080 IPS 144Hz 3ms NVIDIA® GeForce RTX 3060 6GB GDDR 64-zone RGB customized Gaming keyboard 2.2 kg, 58WHrs",
     "price": 300,
     "id":4
   },
   {
     "imgUrl": "./assets/33-2-removebg-preview.png",
     "name": "ASUS ZENBOOK PRO DUO UX582 I7 3070",
+    "specs":"Intel®️ Core™️ i7-10870H 16M Cache, up to 5.10GHz 32GB DDR4 3200Mhz 1TB M.2 NVME SSD 15.6 4K OLED Touchscreen, Pantone Validated NVIDIA®️ GeForce RTX 3070 8GB GDDR6 Asus 4K ScreenPad Plus, Backlit Keyboard2.3 kg, 92 WHrs",
     "price": 300,
     "id":4
   },
   {
     "imgUrl": "./assets/download-removebg-preview.png",
     "name": "LENOVO LEGION 5 15ACH6H RYZEN 7 RTX 3060",
+    "specs":"AMD Ryzen™ 7 5800H (16M Cache 8 Cores Up to 4.4GHz)16GB DDR4 3200MHZ (2x8GB) 512GB M.2 NVME SSD 15.6 FHD (1920x1080) IPS 300nits Anti-glare, 100% sRGB, 165Hz Dolby Vision, FreeSync, G-SYNC NVIDIA GeForce RTX 3060 6GB GDDR6 ( Boost Clock 1425 / 1702MHz, TGP 130W)BlueBacklit Keyboard 2.4 kg, 80 WHr",
     "price": 300,
     "id":4
   },
   {
     "imgUrl": "./assets/Hp-Envy-15-EP1890TX-01-removebg-preview.png",
     "name": "HP ENVY 15 EP1567TX - INTEL CORE I5 RTX 3050TI",
+    "specs":"Intel® Core™ i5-11400H Processor (12M Cache, upto 4.50 GHz) 16GB DDR4 3200Mhz 1TB M.2 NVME SSD 15.6 FHD, IPS LED Display (400 Nits) NVIDIA® GeForce RTX 3050Ti 4GB GDDR6 Backlit Keyboard2.18 kg, 83WHrs",
     "price": 300,
     "id":4
   }

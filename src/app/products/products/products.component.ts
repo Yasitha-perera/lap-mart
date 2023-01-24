@@ -14,7 +14,7 @@ OnDestroy {
 dataSource= new MatTableDataSource<Product>();
 loading=true;
 subscriptions=[];
-displayedColumns=['imgUrl', 'name', 'price', 'action'];
+displayedColumns=['imgUrl', 'name', 'specs','price', 'action'];
 
 @ViewChild(MatSort) sort: MatSort;
 @ViewChild(MatPaginator) paginator: MatPaginator;
