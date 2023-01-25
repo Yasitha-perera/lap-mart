@@ -22,25 +22,22 @@
     <!-- Name Column -->
     <ng-container matColumnDef="name">
       <th mat-header-cell mat-sort-header *matHeaderCellDef> Name </th>
-      <td mat-cell *matCellDef ="let product"> {{product.name}} </td>
+      <td mat-cell *matCellDef ="let product" style="font-size: larger" class="product-name"> {{product.name}} </td>
     </ng-container>
 
  <!-- Description Column -->
- <ng-container matColumnDef="specs">
-  <th mat-header-cell mat-sort-header *matHeaderCellDef> Specs </th>
-  <td mat-cell *matCellDef ="let product" class="specs"> {{product.specs}} </td>
-</ng-container>
+
 
     <!-- Weight Column -->
     <ng-container matColumnDef="price">
       <th mat-header-cell mat-sort-header *matHeaderCellDef> Price </th>
-      <td mat-cell *matCellDef ="let product">
+      <td mat-cell *matCellDef ="let product" style="font-size: larger;">
       {{product.price | currency:'Rs.' }} </td>
     </ng-container>
 
     <!-- Symbol Column -->
     <ng-container matColumnDef="action">
-      <th mat-header-cell mat-sort-header *matHeaderCellDef> Action </th>
+      <th mat-header-cell mat-sort-header *matHeaderCellDef> </th>
       <td mat-cell *matCellDef ="let product">
 <pm-add-to-cart [product]="product"></pm-add-to-cart>
       </td>

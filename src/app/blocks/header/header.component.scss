@@ -1,25 +1,21 @@
-
-
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
 a {
     margin: 2px;
     }
 .logo
 {
   background-image: url('../../../assets/logo.png');
-  height: 80px;
-  width: 100px;
+  height: 100px;
+  width: 110px;
   background-size: contain;
   background-repeat: no-repeat;
   margin-right: 0.3em;
   margin: 0px;
   padding: 0px;
 
-.pm-title{
-margin-left: 0.3em;
 
 }
 
-}
 .header-spacer{flex: 1 1 auto;}
 .mat-icon{
 vertical-align: middle;
@@ -27,6 +23,16 @@ margin: 05px;
 }
 .toolbar
 {
-  background-color: #0f0d0d;
+  background-color: #0f0d0d
 }
+
+.pm-title{
+  font-family: 'Aboreto', cursive;
+font-size:medium;
+margin-top: 10px;
+}
+.nav-b{
+  font-family: 'Aboreto', cursive;
+}
+
 

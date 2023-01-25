@@ -5,16 +5,15 @@
 mat-icon-button
  (click)="sidenav.toggle()"
 fxShow="true"
-fxShow.gt-sm
+fxHide.gt-sm
 >
 <mat-icon>menu</mat-icon>
 </button>
     <a class="logo" [routerLink]="['/']"></a>
-<span class="pm-title">Lap Mart</span>
 
 <div fxShow="true" fxHide.lt-md="true">
 <a mat-button routerLink="/products"
-       routerLinkActive="active-link">Products</a>
+       routerLinkActive="active-link" class="pm-title"><mat-icon>laptop</mat-icon>Products</a>
 </div>
 <span class="header-spacer"></span>
     <a *ngIf="!user" mat-button routerLink="/auth"
@@ -49,13 +48,14 @@ person_outliner
  mat-list-item
   routerLink = "/products"
   (click)="sidenav.toggle()"
+[routerLink]="active-link"
+class="nav-b"
 >Products
 </a>
 </mat-nav-list>
 </mat-sidenav>
 <mat-sidenav-content>
 <router-outlet>
-
 </router-outlet>
 </mat-sidenav-content>
 </mat-sidenav-container>
