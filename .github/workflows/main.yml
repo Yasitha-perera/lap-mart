@@ -25,10 +25,17 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
           script: |
-            cd /root/New-Project
+            cd /root/lap-mart
             git pull
             export NVM_DIR=~/.nvm
             source ~/.nvm/nvm.sh
+            rm -f .env
+            touch .env
+            echo NODE_ENV="${{ vars.NODE_ENV }]" >> .env
+            echo PORT="${{ vars.PORT }}" >> .env
+            echo MONGODB_URI="${{ secrets.MONGODB_URI }}" >> .env
+            echo MONGOOSE_DEBUG="${{ vars.MONGOOSE_DEBUG }}" >> .env
+            echo JWT_SECRET="${{ secrets.JWT_SECRET }}" >> .env
             npm install
             npm run build
             rm -rfv /var/www/html/
