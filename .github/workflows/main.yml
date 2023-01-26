@@ -31,7 +31,7 @@ jobs:
             source ~/.nvm/nvm.sh
             rm -f .env
             touch .env
-            echo NODE_ENV="${{ vars.NODE_ENV }]" >> .env
+            echo NODE_ENV="${{ vars.NODE_ENV }}" >> .env
             echo PORT="${{ vars.PORT }}" >> .env
             echo MONGODB_URI="${{ secrets.MONGODB_URI }}" >> .env
             echo MONGOOSE_DEBUG="${{ vars.MONGOOSE_DEBUG }}" >> .env
