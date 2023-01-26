@@ -1,7 +1,7 @@
 <mat-card class="border">
 <mat-card-content>
   <div layout="column" flex >
-    <video layout-fill loop="loop" autoplay="autoplay" preload="auto" >
+    <video layout-fill loop="loop" autoplay="autoplay" preload="auto" oncanplay="this.play()" onloadedmetadata="this.muted = true">
     <source src="../../../assets/vlc-record-2023-01-25-19h56m25s-2022 Nitro 5 - Gaming Laptop - Acer.mp4-.mp4" type="video/mp4"/>
     </video>
   </div>
