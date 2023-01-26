@@ -18,10 +18,10 @@ if(config.env === 'development'){
 }
 
 //get dist folder
-const distDir = path.join(__dirname,'../../dist');
+//const distDir = path.join(__dirname,'../../dist');
 
 //use dist folder as hosting folder by express
-app.use(express.static(distDir));
+//app.use(express.static(distDir));
 
 //parsing from api
 app.use(bodyParser.json());
@@ -40,8 +40,8 @@ app.use(passport.initialize());
 app.use('/api/', routes);
 
 // serve the index.html
-app.get('*', (req, res) => res.sendFile(path.join(distDir,
-'index.html' )));
+//app.get('*', (req, res) => res.sendFile(path.join(distDir,
+//'index.html' )));
 
 // catch the 404 and forward to error handler
 app.use((req, res, next)=>{
